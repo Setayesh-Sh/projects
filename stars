@@ -1,0 +1,19 @@
+#include  <iostream>
+
+using namespace std;
+int main() {
+  int  i;
+  int j;
+  int x;
+cout << "Enter the Number:  ";
+cin >> x;
+for(i = 1; i <= x; i++)
+{
+  for(j = 1; j <= i; j++)
+      {
+         cout << "*";
+      }
+  cout << "\n";
+}
+return 0;
+}
