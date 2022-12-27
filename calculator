@@ -1,0 +1,21 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+int main() {
+    float x, y;
+    char c;
+    cout << "Enter your numbers: ";
+    cin >> x >> c >> y;
+    cout << "\n";
+    switch(c) {
+        case '+': cout << x << '+' << y << '=' << x + y; break;
+        case '-': cout << x << '-' << y << '=' << x - y; break;
+        case '*': cout << x << '*' << y << '=' << x * y; break;
+        case '/': cout << x << '/' << y << '=' << x / y; break;
+        default: cout << "Error";
+    }
+    cout << "\n\n" << "Press any key to exit ...";
+    getch();
+    return 0;
+}
